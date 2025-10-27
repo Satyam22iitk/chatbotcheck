@@ -1,0 +1,23 @@
+streamlit>=1.20
+python-dotenv>=1.0.0
+tqdm>=4.65
+
+# --- LangChain Core ---
+langchain>=0.2
+langchain-groq>=0.1
+langchain-community>=0.2
+langchain-core>=0.2
+
+# --- For Document RAG Tool ---
+pypdf>=4.0
+faiss-cpu>=1.8
+langchain-huggingface>=0.0.1
+sentence-transformers>=2.2.0
+
+# --- For Internet Search Tool ---
+tavily-python>=0.3
+
+# --- For SQL Tool ---
+langchain_experimental>=0.0.60
+sqlalchemy>=2.0
+pandas>=2.0
